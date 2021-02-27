@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var y = 2
+
 func main() {
 	fmt.Println(" This is my first ever go program")
 
@@ -9,7 +11,7 @@ func main() {
 
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {
-			fmt.Println(i)
+			fmt.Println(i * y)
 		}
 	}
 
