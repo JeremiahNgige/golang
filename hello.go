@@ -4,6 +4,8 @@ import "fmt"
 
 var y = 2
 
+//declare there's a variable y and is of type int
+
 func main() {
 	fmt.Println(" This is my first ever go program")
 
