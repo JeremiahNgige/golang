@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+var a int
+
+type hotdog int
+
+var b hotdog
+
 var y = 2
 
 //declare there's a variable y and is of type int
@@ -18,6 +24,15 @@ func main() {
 	}
 
 	fmt.Println("THis is awesome")
+
+	// creating a type
+	a = 42
+	b = 43
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
+	fmt.Println(b)
+	fmt.Printf("%T\n", b)
+
 }
 
 func foo() {
